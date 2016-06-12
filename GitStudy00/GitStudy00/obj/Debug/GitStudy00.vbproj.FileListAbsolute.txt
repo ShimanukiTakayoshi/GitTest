@@ -8,3 +8,13 @@ C:\Users\Shima\Documents\Visual Studio 2012\Projects\GitTest\GitStudy00\GitStudy
 C:\Users\Shima\Documents\Visual Studio 2012\Projects\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.exe
 C:\Users\Shima\Documents\Visual Studio 2012\Projects\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.xml
 C:\Users\Shima\Documents\Visual Studio 2012\Projects\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.pdb
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\bin\Debug\GitStudy00.exe.config
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.exe
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.xml
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.pdb
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\bin\Debug\GitStudy00.exe
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\bin\Debug\GitStudy00.pdb
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\bin\Debug\GitStudy00.xml
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.frmGitStudy.resources
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.Resources.resources
+C:\Users\pc155-PC\Documents\GitTest\GitStudy00\GitStudy00\obj\Debug\GitStudy00.vbproj.GenerateResource.Cache
