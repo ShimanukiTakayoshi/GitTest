@@ -22,17 +22,44 @@ Partial Class frmGitStudy
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.btnRed = New System.Windows.Forms.Button()
+        Me.lblRump = New System.Windows.Forms.Label()
         Me.SuspendLayout()
+        '
+        'btnRed
+        '
+        Me.btnRed.Location = New System.Drawing.Point(34, 55)
+        Me.btnRed.Name = "btnRed"
+        Me.btnRed.Size = New System.Drawing.Size(201, 51)
+        Me.btnRed.TabIndex = 0
+        Me.btnRed.Text = "赤ランプ"
+        Me.btnRed.UseVisualStyleBackColor = True
+        '
+        'lblRump
+        '
+        Me.lblRump.AutoSize = True
+        Me.lblRump.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.lblRump.Font = New System.Drawing.Font("ＭＳ ゴシック", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblRump.Location = New System.Drawing.Point(68, 144)
+        Me.lblRump.Name = "lblRump"
+        Me.lblRump.Size = New System.Drawing.Size(134, 37)
+        Me.lblRump.TabIndex = 1
+        Me.lblRump.Text = "ランプ"
         '
         'frmGitStudy
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.lblRump)
+        Me.Controls.Add(Me.btnRed)
         Me.Name = "frmGitStudy"
         Me.Text = "GitStudy"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
+    Friend WithEvents btnRed As System.Windows.Forms.Button
+    Friend WithEvents lblRump As System.Windows.Forms.Label
 
 End Class
