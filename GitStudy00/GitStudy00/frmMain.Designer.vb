@@ -25,6 +25,7 @@ Partial Class frmGitStudy
         Me.btnRed = New System.Windows.Forms.Button()
         Me.lblRump = New System.Windows.Forms.Label()
         Me.btnGreen = New System.Windows.Forms.Button()
+        Me.btnYellow = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnRed
@@ -56,11 +57,21 @@ Partial Class frmGitStudy
         Me.btnGreen.Text = "緑ランプ"
         Me.btnGreen.UseVisualStyleBackColor = True
         '
+        'btnYellow
+        '
+        Me.btnYellow.Location = New System.Drawing.Point(172, 55)
+        Me.btnYellow.Name = "btnYellow"
+        Me.btnYellow.Size = New System.Drawing.Size(63, 51)
+        Me.btnYellow.TabIndex = 3
+        Me.btnYellow.Text = "黄ランプ"
+        Me.btnYellow.UseVisualStyleBackColor = True
+        '
         'frmGitStudy
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.btnYellow)
         Me.Controls.Add(Me.btnGreen)
         Me.Controls.Add(Me.lblRump)
         Me.Controls.Add(Me.btnRed)
@@ -73,5 +84,6 @@ Partial Class frmGitStudy
     Friend WithEvents btnRed As System.Windows.Forms.Button
     Friend WithEvents lblRump As System.Windows.Forms.Label
     Friend WithEvents btnGreen As System.Windows.Forms.Button
+    Friend WithEvents btnYellow As System.Windows.Forms.Button
 
 End Class
