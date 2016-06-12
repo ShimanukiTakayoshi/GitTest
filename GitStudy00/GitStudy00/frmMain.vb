@@ -7,4 +7,8 @@
     Private Sub btnGreen_Click(sender As Object, e As EventArgs) Handles btnGreen.Click
         lblRump.BackColor = Color.Green
     End Sub
+
+    Private Sub btnYellow_Click(sender As Object, e As EventArgs) Handles btnYellow.Click
+        lblRump.BackColor = Color.Yellow
+    End Sub
 End Class
