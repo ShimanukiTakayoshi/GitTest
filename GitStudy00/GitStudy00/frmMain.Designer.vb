@@ -24,13 +24,14 @@ Partial Class frmGitStudy
     Private Sub InitializeComponent()
         Me.btnRed = New System.Windows.Forms.Button()
         Me.lblRump = New System.Windows.Forms.Label()
+        Me.btnGreen = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnRed
         '
         Me.btnRed.Location = New System.Drawing.Point(34, 55)
         Me.btnRed.Name = "btnRed"
-        Me.btnRed.Size = New System.Drawing.Size(201, 51)
+        Me.btnRed.Size = New System.Drawing.Size(63, 51)
         Me.btnRed.TabIndex = 0
         Me.btnRed.Text = "赤ランプ"
         Me.btnRed.UseVisualStyleBackColor = True
@@ -46,11 +47,21 @@ Partial Class frmGitStudy
         Me.lblRump.TabIndex = 1
         Me.lblRump.Text = "ランプ"
         '
+        'btnGreen
+        '
+        Me.btnGreen.Location = New System.Drawing.Point(103, 55)
+        Me.btnGreen.Name = "btnGreen"
+        Me.btnGreen.Size = New System.Drawing.Size(63, 51)
+        Me.btnGreen.TabIndex = 2
+        Me.btnGreen.Text = "緑ランプ"
+        Me.btnGreen.UseVisualStyleBackColor = True
+        '
         'frmGitStudy
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.btnGreen)
         Me.Controls.Add(Me.lblRump)
         Me.Controls.Add(Me.btnRed)
         Me.Name = "frmGitStudy"
@@ -61,5 +72,6 @@ Partial Class frmGitStudy
     End Sub
     Friend WithEvents btnRed As System.Windows.Forms.Button
     Friend WithEvents lblRump As System.Windows.Forms.Label
+    Friend WithEvents btnGreen As System.Windows.Forms.Button
 
 End Class
