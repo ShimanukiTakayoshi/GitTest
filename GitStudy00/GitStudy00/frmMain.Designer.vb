@@ -40,7 +40,7 @@ Partial Class frmGitStudy
         'lblRump
         '
         Me.lblRump.AutoSize = True
-        Me.lblRump.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblRump.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblRump.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.lblRump.Font = New System.Drawing.Font("ＭＳ ゴシック", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.lblRump.Location = New System.Drawing.Point(68, 144)
